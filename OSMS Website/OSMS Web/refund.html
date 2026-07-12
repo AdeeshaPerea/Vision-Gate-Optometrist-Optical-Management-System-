@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request a Refund | Vision Gate Optometrist</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background: linear-gradient(120deg, #6a11cb, #2575fc);
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+
+        .form-container {
+            width: 400px;
+            max-width: 90%;
+            padding: 30px;
+            background-color: #ffffff;
+            border-radius: 15px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            animation: fadeIn 1s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(-20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        h2 {
+            color: #2575fc;
+            font-size: 24px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+
+        .progress-bar {
+            height: 8px;
+            background-color: #eaeaea;
+            border-radius: 4px;
+            margin-bottom: 20px;
+            overflow: hidden;
+            position: relative;
+        }
+
+        .progress {
+            height: 100%;
+            background: linear-gradient(120deg, #6a11cb, #2575fc);
+            width: 0%;
+            transition: width 0.3s ease;
+        }
+
+        input, select, textarea, button {
+            width: 100%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 8px;
+            font-size: 14px;
+            transition: all 0.3s ease;
+        }
+
+        input:focus, select:focus, textarea:focus {
+            outline: none;
+            border-color: #6a11cb;
+            box-shadow: 0 0 8px rgba(106, 17, 203, 0.3);
+        }
+
+        button {
+            background: linear-gradient(120deg, #6a11cb, #2575fc);
+            color: white;
+            border: none;
+            font-size: 16px;
+            cursor: pointer;
+            font-weight: bold;
+            transition: background 0.3s ease, transform 0.2s ease;
+        }
+
+        button:hover {
+            background: linear-gradient(120deg, #2575fc, #6a11cb);
+            transform: translateY(-3px);
+            box-shadow: 0 6px 12px rgba(39, 117, 252, 0.3);
+        }
+
+        .note {
+            font-size: 12px;
+            color: #666;
+            margin-top: 10px;
+            text-align: center;
+        }
+
+        .success-message {
+            color: #2575fc;
+            font-size: 16px;
+            margin-top: 15px;
+            display: none;
+        }
+
+        .error {
+            color: red;
+            font-size: 12px;
+            text-align: left;
+            margin-top: -5px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="form-container">
+        <h2>Request a Refund</h2>
+        <div class="progress-bar">
+            <div class="progress" id="progress"></div>
+        </div>
+        <form id="refundForm" action="refund_request.php" method="POST">
+            <div class="form-group">
+                <label for="orderId">Order ID (required)</label>
+                <input type="text" id="orderId" placeholder="E.g., #12345" required>
+                <div class="error" id="orderIdError"></div>
+            </div>
+            <div class="form-group">
+                <label for="fullName">Full Name (required)</label>
+                <input type="text" id="fullName" placeholder="Enter your name" required>
+                <div class="error" id="nameError"></div>
+            </div>
+            <div class="form-group">
+                <label for="email">Email Address (required)</label>
+                <input type="email" id="email" placeholder="Enter your email" required>
+                <div class="error" id="emailError"></div>
+            </div>
+            <div class="form-group">
+                <label for="Phone Numbar">phone Numbar (required)</label>
+                <input type="number" id="Phone" placeholder="Enter your phone number" required>
+                <div class="error" id="PhoneNumbarError"></div>
+            </div>
+            <div class="form-group">
+                <label for="reason">Refund Reason (required)</label>
+                <select id="reason" required>
+                    <option value="" disabled selected>Select a reason</option>
+                    <option value="damaged">Damaged Item</option>
+                    <option value="wrong">Wrong Item Delivered</option>
+                    <option value="not_satisfied">Not Satisfied</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="details">Additional Details</label>
+                <textarea id="details" placeholder="Provide any relevant information"></textarea>
+            </div>
+            <button type="submit">Request Refund</button>
+            <p class="note">*Please allow 5-7 business days for refund processing.</p>
+        </form>
+        <p class="success-message" id="successMessage">Your refund request has been submitted successfully!</p>
+    </div>
+
+    <script>
+        const form = document.getElementById('refundForm');
+        const progressBar = document.getElementById('progress');
+        const successMessage = document.getElementById('successMessage');
+
+        form.addEventListener('input', () => {
+            const inputs = form.querySelectorAll('input, select, textarea');
+            const filledInputs = Array.from(inputs).filter(input => input.value.trim() !== '');
+            const progress = Math.min((filledInputs.length / inputs.length) * 100, 100);
+            progressBar.style.width = `${progress}%`;
+        });
+
+        form.addEventListener('submit', (e) => {
+            e.preventDefault();
+            successMessage.style.display = 'block';
+            setTimeout(() => {
+                successMessage.style.display = 'none';
+                form.reset();
+                progressBar.style.width = '0%';
+            }, 5000);
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Catalog</title>
+    <style>
+        body {
+            font-family: 'Roboto', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f9;
+        }
+
+        header {
+            background: linear-gradient(90deg,  #00a3a3, #017373);
+            color: white;
+            padding: 20px;
+            text-align: center;
+            font-size: 32px;
+        }
+
+        .catalog-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            padding: 40px 20px;
+            margin: 0 auto;
+            max-width: 1200px;
+        }
+
+        .product-item {
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+            padding: 20px;
+            text-align: center;
+        }
+
+        .product-item img {
+            width: 100%;
+            max-height: 200px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 15px;
+        }
+
+        .product-item button {
+            background: linear-gradient(90deg,#00a3a3, #017373);
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+        }
+
+        .view-cart-btn {
+            display: block;
+            width: 200px;
+            margin: 20px auto;
+            padding: 10px 20px;
+            text-align: center;
+            background: linear-gradient(90deg, #ff9800, #f57c00);
+            color: white;
+            font-size: 16px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: bold;
+            transition: background 0.3s;
+        }
+
+        .view-cart-btn:hover {
+            background: linear-gradient(90deg, #f57c00, #ff9800);
+        }
+
+        /* Styles for the customization popup */
+        .popup-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.7);
+            display: none;
+            justify-content: center;
+            align-items: center;
+            z-index: 1000;
+        }
+
+        .popup-content {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            width: 400px;
+            text-align: left;
+        }
+
+        .popup-content label {
+            display: block;
+            font-size: 14px;
+            margin-bottom: 5px;
+            color: #555;
+        }
+
+        .popup-content input,
+        .popup-content select {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .popup-content button {
+            padding: 10px 15px;
+            font-size: 14px;
+            border: none;
+            border-radius: 8px;
+            cursor: pointer;
+            margin: 5px;
+        }
+
+        .close-btn {
+            background: #d9534f;
+            color: white;
+        }
+
+        .submit-btn {
+            background: #5cb85c;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>Product Catalog</header>
+    <div class="catalog-container" id="catalogContainer"></div>
+
+    <!-- Link to cart page -->
+    <a href="cart.html" class="view-cart-btn">Go to Cart</a>
+
+    <!-- Customization Popup -->
+    <div class="popup-overlay" id="popupOverlay">
+        <div class="popup-content">
+            <h3>Customize Product</h3>
+            <form id="customizationForm">
+                <label for="color">Select Color</label>
+                <select id="color" required>
+                    <option value="">Choose a color</option>
+                    <option value="Red">Red</option>
+                    <option value="Blue">Blue</option>
+                    <option value="Green">Green</option>
+                    <option value="Black">Black</option>
+                </select>
+
+                <label for="size">Select Size</label>
+                <select id="size" required>
+                    <option value="">Choose a size</option>
+                    <option value="Small">Small</option>
+                    <option value="Medium">Medium</option>
+                    <option value="Large">Large</option>
+                </select>
+
+                <label for="quantity">Quantity</label>
+                <input type="number" id="quantity" min="1" value="1" required>
+
+                <div style="display: flex; justify-content: space-between;">
+                    <button type="button" class="close-btn" onclick="closePopup()">Cancel</button>
+                    <button type="submit" class="submit-btn">Add to Cart</button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const catalogContainer = document.getElementById('catalogContainer');
+        const popupOverlay = document.getElementById('popupOverlay');
+        const customizationForm = document.getElementById('customizationForm');
+        let selectedProductIndex = null;
+
+        const products = [
+            { name: 'Product 1', price: 50, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7vmx4uXjJTnkZJPRg_7PaqPdWcQSKxl2zsg&s' },
+            { name: 'Product 2', price: 75, image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYOf7lHvzGewMxvNLlzCxMzHxYVoYhdcy2wQ&s' },
+            { name: 'Product 3', price: 100, image: 'https://www.adorama.com/alc/wp-content/uploads/2021/05/bird-wings-flying-feature.gif' }
+        ];
+
+        function renderProducts() {
+            catalogContainer.innerHTML = '';
+            products.forEach((product, index) => {
+                const productItem = `
+                    <div class="product-item">
+                        <img src="${product.image}" alt="${product.name}">
+                        <h3>${product.name}</h3>
+                        <p>Price: Rs. ${product.price}</p>
+                        <button onclick="openPopup(${index})">Customize & Add to Cart</button>
+                    </div>
+                `;
+                catalogContainer.innerHTML += productItem;
+            });
+        }
+
+        function openPopup(index) {
+            selectedProductIndex = index;
+            popupOverlay.style.display = 'flex';
+        }
+
+        function closePopup() {
+            popupOverlay.style.display = 'none';
+        }
+
+        customizationForm.addEventListener('submit', (event) => {
+            event.preventDefault();
+            const color = document.getElementById('color').value;
+            const size = document.getElementById('size').value;
+            const quantity = parseInt(document.getElementById('quantity').value);
+
+            const product = products[selectedProductIndex];
+            const cart = JSON.parse(localStorage.getItem('cart')) || [];
+            const existingProduct = cart.find(item =>
+                item.name === product.name && item.color === color && item.size === size
+            );
+
+            if (existingProduct) {
+                existingProduct.quantity += quantity;
+            } else {
+                cart.push({
+                    name: product.name,
+                    price: product.price,
+                    color,
+                    size,
+                    quantity
+                });
+            }
+
+            localStorage.setItem('cart', JSON.stringify(cart));
+            alert(`${product.name} has been added to your cart.`);
+            closePopup();
+        });
+
+        renderProducts();
+    </script>
+</body>
+</html>

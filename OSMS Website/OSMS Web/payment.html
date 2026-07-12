@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Patient Payment | Vision Gate Optometrist</title>
+    <style>
+       body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(to bottom right, #0a959d, #1cbbb4);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 500px;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+h1 {
+    text-align: center;
+    font-size: 1.8rem;
+    color: #0a959d;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+label {
+    display: block;
+    font-size: 0.9rem;
+    color: #555;
+    margin-bottom: 5px;
+    font-weight: 500;
+}
+
+input, select {
+    width: 100%;
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus, select:focus {
+    border-color: #0a959d;
+    box-shadow: 0 0 5px rgba(10, 149, 157, 0.5);
+    outline: none;
+}
+
+input[readonly] {
+    background-color: #f9f9f9;
+    cursor: not-allowed;
+}
+
+button {
+    width: 100%;
+    padding: 12px;
+    background: #0a959d;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    margin-top: 10px;
+}
+
+button:hover {
+    background: #1cbbb4;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.summary {
+    margin-top: 20px;
+    padding: 15px;
+    background: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    position: relative;
+    text-align: left;
+}
+
+.summary h2 {
+    font-size: 1.5rem;
+    color: #0a959d;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.summary p {
+    font-size: 0.9rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+.download-icon {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+    font-size: 1.5rem;
+    color: #0a959d;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.download-icon:hover {
+    color: #1cbbb4;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: scale(0.9);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Patient Payment</h1>
+        <form id="paymentForm">
+            <div class="form-group">
+                <label for="paymentId">Payment ID (Auto-Generated)</label>
+                <input type="number" id="paymentId" readonly>
+            </div>
+            <div class="form-group">
+                <label for="paymentAmount">Payment Amount (LKR)</label>
+                <input type="number" id="paymentAmount" readonly>
+            </div>
+            <div class="form-group">
+                <label for="paymentType">Payment Type</label>
+                <select id="paymentType" required>
+                    <option value="" disabled selected>Select Type</option>
+                    <option value="Consultation">Consultation</option>
+                    <option value="Prescription">Prescription</option>
+                    <option value="Product Purchase">Product Purchase</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="paymentDate">Payment Date</label>
+                <input type="date" id="paymentDate" readonly>
+            </div>
+            <div class="form-group">
+                <label for="paymentMethod">Payment Method</label>
+                <select id="paymentMethod" required>
+                    <option value="" disabled selected>Select Method</option>
+                    <option value="Credit Card">Credit Card</option>
+                    <option value="Cash">Cash on Delivery</option>
+                </select>
+            </div>
+            <button type="submit">Submit Payment</button>
+        </form>
+    </div>
+
+    <script>
+        // Pre-fill Payment Details
+        document.addEventListener('DOMContentLoaded', () => {
+            const totalAmount = localStorage.getItem('totalAmount'); // Fetch total amount
+            const paymentAmountField = document.getElementById('paymentAmount');
+            paymentAmountField.value = totalAmount || 0; // Set total amount or default to 0
+
+            // Set the default payment date to today's date
+            const paymentDateField = document.getElementById('paymentDate');
+            const today = new Date();
+            const formattedDate = today.toISOString().split('T')[0]; // Format: YYYY-MM-DD
+            paymentDateField.value = formattedDate; // Set today's date as default
+        });
+
+        // Generate Auto-Incrementing Payment ID
+        const paymentIdField = document.getElementById('paymentId');
+        const generatePaymentId = () => Math.floor(100000 + Math.random() * 900000); // Random 6-digit integer
+        paymentIdField.value = generatePaymentId();
+    </script>
+</body>
+</html>
