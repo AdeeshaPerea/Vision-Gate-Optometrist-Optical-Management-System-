@@ -1,0 +1,1383 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>VisionGateOptometrist</RootNamespace>
+    <AssemblyName>VisionGateOptometrist</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="CrystalDecisions.CrystalReports.Engine, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="CrystalDecisions.ReportSource, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Shared, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304" />
+    <Reference Include="CrystalDecisions.Windows.Forms, Version=13.0.4000.0, Culture=neutral, PublicKeyToken=692fbea5521e1304, processorArchitecture=MSIL" />
+    <Reference Include="Guna.UI2, Version=2.0.4.6, Culture=neutral, PublicKeyToken=8b9d14aa5142e261, processorArchitecture=MSIL">
+      <HintPath>..\packages\Guna.UI2.WinForms.2.0.4.6\lib\net472\Guna.UI2.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Design" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Management" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CrystalReport1.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport1.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport2.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport2.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport3.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport3.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="CrystalReport4.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>CrystalReport4.rpt</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="fmViewStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="fmViewStock.Designer.cs">
+      <DependentUpon>fmViewStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAddEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAddEmployee.Designer.cs">
+      <DependentUpon>frmAddEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAdminDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAdminDashboard.Designer.cs">
+      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmApproveAndDeclineRefunds.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmApproveAndDeclineRefunds.Designer.cs">
+      <DependentUpon>frmApproveAndDeclineRefunds.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmAudiologistDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAudiologistDashBoard.Designer.cs">
+      <DependentUpon>frmAudiologistDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBranchAssistantDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBranchAssistantDashBoard.Designer.cs">
+      <DependentUpon>frmBranchAssistantDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBranchManagerDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBranchManagerDashBoard.Designer.cs">
+      <DependentUpon>frmBranchManagerDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmCashierDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmCashierDashBoard.Designer.cs">
+      <DependentUpon>frmCashierDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeleteReportsAproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeleteReportsAproval.Designer.cs">
+      <DependentUpon>frmDeleteReportsAproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmDeliveryInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmDeliveryInformation.Designer.cs">
+      <DependentUpon>frmDeliveryInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmFinalReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmFinalReport.Designer.cs">
+      <DependentUpon>frmFinalReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmGenerateReport_All.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGenerateReport_All.Designer.cs">
+      <DependentUpon>frmGenerateReport_All.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmHearingTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmHearingTestResults.Designer.cs">
+      <DependentUpon>frmHearingTestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmInvoiceApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmInvoiceApproval.Designer.cs">
+      <DependentUpon>frmInvoiceApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmLoginPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmLoginPage.Designer.cs">
+      <DependentUpon>frmLoginPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageBranchTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageBranchTasks.Designer.cs">
+      <DependentUpon>frmManageBranchTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageChannelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageChannelling.Designer.cs">
+      <DependentUpon>frmManageChannelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageCharitySchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageCharitySchedule.Designer.cs">
+      <DependentUpon>frmManageCharitySchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageEarGuidance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageEarGuidance.Designer.cs">
+      <DependentUpon>frmManageEarGuidance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageEmployeePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageEmployeePayment.Designer.cs">
+      <DependentUpon>frmManageEmployeePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageEyeGuidance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageEyeGuidance.Designer.cs">
+      <DependentUpon>frmManageEyeGuidance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageHearingMaintenenanceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageHearingMaintenenanceDetails.Designer.cs">
+      <DependentUpon>frmManageHearingMaintenenanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageHearingTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageHearingTestResults.Designer.cs">
+      <DependentUpon>frmManageHearingTestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageInvoice.Designer.cs">
+      <DependentUpon>frmManageInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageOrders.Designer.cs">
+      <DependentUpon>frmManageOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManagePatient.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManagePatient.Designer.cs">
+      <DependentUpon>frmManagePatient.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManagePatientInquiries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManagePatientInquiries.Designer.cs">
+      <DependentUpon>frmManagePatientInquiries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManagePatientPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManagePatientPayment.Designer.cs">
+      <DependentUpon>frmManagePatientPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageProducts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageProducts.Designer.cs">
+      <DependentUpon>frmManageProducts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManagePromotion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManagePromotion.Designer.cs">
+      <DependentUpon>frmManagePromotion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageReport.Designer.cs">
+      <DependentUpon>frmManageReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageRevenue.Designer.cs">
+      <DependentUpon>frmManageRevenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageStock.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageStock.Designer.cs">
+      <DependentUpon>frmManageStock.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageSupplierInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageSupplierInformation.Designer.cs">
+      <DependentUpon>frmManageSupplierInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageSupplierPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageSupplierPayment.Designer.cs">
+      <DependentUpon>frmManageSupplierPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageSystemFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageSystemFeedback.Designer.cs">
+      <DependentUpon>frmManageSystemFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageTreatmentSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageTreatmentSchedule.Designer.cs">
+      <DependentUpon>frmManageTreatmentSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageUserAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageUserAccounts.Designer.cs">
+      <DependentUpon>frmManageUserAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageUserForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageUserForgotPassword.Designer.cs">
+      <DependentUpon>frmManageUserForgotPassword.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmManageVisionTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmManageVisionTestResults.Designer.cs">
+      <DependentUpon>frmManageVisionTestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenuPage_All_in_One.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenuPage_All_in_One.Designer.cs">
+      <DependentUpon>frmMenuPage_All_in_One.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenLoadingScreen.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenLoadingScreen.Designer.cs">
+      <DependentUpon>frmOpenLoadingScreen.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpenPage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpenPage.Designer.cs">
+      <DependentUpon>frmOpenPage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOpticianDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOpticianDashBoard.Designer.cs">
+      <DependentUpon>frmOpticianDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOptometristDashBoard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOptometristDashBoard.Designer.cs">
+      <DependentUpon>frmOptometristDashBoard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOwnerAssistantDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOwnerAssistantDashboard.Designer.cs">
+      <DependentUpon>frmOwnerAssistantDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOwnerDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOwnerDashboard.Designer.cs">
+      <DependentUpon>frmOwnerDashboard.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPatientInquries.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPatientInquries.Designer.cs">
+      <DependentUpon>frmPatientInquries.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmPaymentCancellationApproval.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmPaymentCancellationApproval.Designer.cs">
+      <DependentUpon>frmPaymentCancellationApproval.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductCatelog.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductCatelog.Designer.cs">
+      <DependentUpon>frmProductCatelog.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmProductDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmProductDetails.Designer.cs">
+      <DependentUpon>frmProductDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmRevenueChart.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmRevenueChart.Designer.cs">
+      <DependentUpon>frmRevenueChart.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSendNotification.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSendNotification.Designer.cs">
+      <DependentUpon>frmSendNotification.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmSuplierDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmSuplierDetails.Designer.cs">
+      <DependentUpon>frmSuplierDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewBranchTasks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewBranchTasks.Designer.cs">
+      <DependentUpon>frmViewBranchTasks.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewCalender.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewCalender.Designer.cs">
+      <DependentUpon>frmViewCalender.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewChannelling.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewChannelling.Designer.cs">
+      <DependentUpon>frmViewChannelling.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewCharitySchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewCharitySchedule.Designer.cs">
+      <DependentUpon>frmViewCharitySchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewDeliveryInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewDeliveryInformation.Designer.cs">
+      <DependentUpon>frmViewDeliveryInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEarGuidance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEarGuidance.Designer.cs">
+      <DependentUpon>frmViewEarGuidance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEmployee.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEmployee.Designer.cs">
+      <DependentUpon>frmViewEmployee.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEmployeePayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEmployeePayment.Designer.cs">
+      <DependentUpon>frmViewEmployeePayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewEyeGuidance.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewEyeGuidance.Designer.cs">
+      <DependentUpon>frmViewEyeGuidance.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewForgotPasswordRequest.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewForgotPasswordRequest.Designer.cs">
+      <DependentUpon>frmViewForgotPasswordRequest.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewHearingMaintenanceDetails.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewHearingMaintenanceDetails.Designer.cs">
+      <DependentUpon>frmViewHearingMaintenanceDetails.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewHearingTestResults.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewHearingTestResults.Designer.cs">
+      <DependentUpon>frmViewHearingTestResults.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewInvoice.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewInvoice.Designer.cs">
+      <DependentUpon>frmViewInvoice.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewOrders.Designer.cs">
+      <DependentUpon>frmViewOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPatientFeddback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPatientFeddback.Designer.cs">
+      <DependentUpon>frmViewPatientFeddback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmviewPatientFeedbackHistoty.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmviewPatientFeedbackHistoty.Designer.cs">
+      <DependentUpon>frmviewPatientFeedbackHistoty.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPatientPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPatientPayment.Designer.cs">
+      <DependentUpon>frmViewPatientPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPatients.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPatients.Designer.cs">
+      <DependentUpon>frmViewPatients.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewPromotions.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewPromotions.Designer.cs">
+      <DependentUpon>frmViewPromotions.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewReport.Designer.cs">
+      <DependentUpon>frmViewReport.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewReturnedItems.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewReturnedItems.Designer.cs">
+      <DependentUpon>frmViewReturnedItems.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewRevenue.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewRevenue.Designer.cs">
+      <DependentUpon>frmViewRevenue.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSupplierInformation.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSupplierInformation.Designer.cs">
+      <DependentUpon>frmViewSupplierInformation.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSupplierPayment.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSupplierPayment.Designer.cs">
+      <DependentUpon>frmViewSupplierPayment.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSystemFeedback.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSystemFeedback.Designer.cs">
+      <DependentUpon>frmViewSystemFeedback.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewSystemFeedbackHistory.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewSystemFeedbackHistory.Designer.cs">
+      <DependentUpon>frmViewSystemFeedbackHistory.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewTretmentSchedule.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewTretmentSchedule.Designer.cs">
+      <DependentUpon>frmViewTretmentSchedule.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewUserAccounts.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewUserAccounts.Designer.cs">
+      <DependentUpon>frmViewUserAccounts.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmViewVisionTestResult.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmViewVisionTestResult.Designer.cs">
+      <DependentUpon>frmViewVisionTestResult.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ucDays.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ucDays.Designer.cs">
+      <DependentUpon>ucDays.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="CrystalReport1.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport1.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport2.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport2.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport3.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport3.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrystalReport4.rpt">
+      <Generator>CrystalDecisions.VSDesigner.CodeGen.ReportCodeGenerator</Generator>
+      <LastGenOutput>CrystalReport4.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="fmViewStock.resx">
+      <DependentUpon>fmViewStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAddEmployee.resx">
+      <DependentUpon>frmAddEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAdminDashboard.resx">
+      <DependentUpon>frmAdminDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmApproveAndDeclineRefunds.resx">
+      <DependentUpon>frmApproveAndDeclineRefunds.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAudiologistDashBoard.resx">
+      <DependentUpon>frmAudiologistDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBranchAssistantDashBoard.resx">
+      <DependentUpon>frmBranchAssistantDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBranchManagerDashBoard.resx">
+      <DependentUpon>frmBranchManagerDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmCashierDashBoard.resx">
+      <DependentUpon>frmCashierDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeleteReportsAproval.resx">
+      <DependentUpon>frmDeleteReportsAproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmDeliveryInformation.resx">
+      <DependentUpon>frmDeliveryInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmFinalReport.resx">
+      <DependentUpon>frmFinalReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmGenerateReport_All.resx">
+      <DependentUpon>frmGenerateReport_All.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmHearingTestResults.resx">
+      <DependentUpon>frmHearingTestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmInvoiceApproval.resx">
+      <DependentUpon>frmInvoiceApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmLoginPage.resx">
+      <DependentUpon>frmLoginPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageBranchTasks.resx">
+      <DependentUpon>frmManageBranchTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageChannelling.resx">
+      <DependentUpon>frmManageChannelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageCharitySchedule.resx">
+      <DependentUpon>frmManageCharitySchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageEarGuidance.resx">
+      <DependentUpon>frmManageEarGuidance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageEmployeePayment.resx">
+      <DependentUpon>frmManageEmployeePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageEyeGuidance.resx">
+      <DependentUpon>frmManageEyeGuidance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageHearingMaintenenanceDetails.resx">
+      <DependentUpon>frmManageHearingMaintenenanceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageHearingTestResults.resx">
+      <DependentUpon>frmManageHearingTestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageInvoice.resx">
+      <DependentUpon>frmManageInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageOrders.resx">
+      <DependentUpon>frmManageOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManagePatient.resx">
+      <DependentUpon>frmManagePatient.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManagePatientInquiries.resx">
+      <DependentUpon>frmManagePatientInquiries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManagePatientPayment.resx">
+      <DependentUpon>frmManagePatientPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageProducts.resx">
+      <DependentUpon>frmManageProducts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManagePromotion.resx">
+      <DependentUpon>frmManagePromotion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageReport.resx">
+      <DependentUpon>frmManageReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageRevenue.resx">
+      <DependentUpon>frmManageRevenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageStock.resx">
+      <DependentUpon>frmManageStock.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageSupplierInformation.resx">
+      <DependentUpon>frmManageSupplierInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageSupplierPayment.resx">
+      <DependentUpon>frmManageSupplierPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageSystemFeedback.resx">
+      <DependentUpon>frmManageSystemFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageTreatmentSchedule.resx">
+      <DependentUpon>frmManageTreatmentSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageUserAccounts.resx">
+      <DependentUpon>frmManageUserAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageUserForgotPassword.resx">
+      <DependentUpon>frmManageUserForgotPassword.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmManageVisionTestResults.resx">
+      <DependentUpon>frmManageVisionTestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenuPage_All_in_One.resx">
+      <DependentUpon>frmMenuPage_All_in_One.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpenLoadingScreen.resx">
+      <DependentUpon>frmOpenLoadingScreen.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpenPage.resx">
+      <DependentUpon>frmOpenPage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOpticianDashBoard.resx">
+      <DependentUpon>frmOpticianDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOptometristDashBoard.resx">
+      <DependentUpon>frmOptometristDashBoard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOwnerAssistantDashboard.resx">
+      <DependentUpon>frmOwnerAssistantDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOwnerDashboard.resx">
+      <DependentUpon>frmOwnerDashboard.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPatientInquries.resx">
+      <DependentUpon>frmPatientInquries.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmPaymentCancellationApproval.resx">
+      <DependentUpon>frmPaymentCancellationApproval.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductCatelog.resx">
+      <DependentUpon>frmProductCatelog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmProductDetails.resx">
+      <DependentUpon>frmProductDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmRevenueChart.resx">
+      <DependentUpon>frmRevenueChart.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSendNotification.resx">
+      <DependentUpon>frmSendNotification.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmSuplierDetails.resx">
+      <DependentUpon>frmSuplierDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewBranchTasks.resx">
+      <DependentUpon>frmViewBranchTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewCalender.resx">
+      <DependentUpon>frmViewCalender.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewChannelling.resx">
+      <DependentUpon>frmViewChannelling.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewCharitySchedule.resx">
+      <DependentUpon>frmViewCharitySchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewDeliveryInformation.resx">
+      <DependentUpon>frmViewDeliveryInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEarGuidance.resx">
+      <DependentUpon>frmViewEarGuidance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEmployee.resx">
+      <DependentUpon>frmViewEmployee.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEmployeePayment.resx">
+      <DependentUpon>frmViewEmployeePayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewEyeGuidance.resx">
+      <DependentUpon>frmViewEyeGuidance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewForgotPasswordRequest.resx">
+      <DependentUpon>frmViewForgotPasswordRequest.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewHearingMaintenanceDetails.resx">
+      <DependentUpon>frmViewHearingMaintenanceDetails.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewHearingTestResults.resx">
+      <DependentUpon>frmViewHearingTestResults.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewInvoice.resx">
+      <DependentUpon>frmViewInvoice.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewOrders.resx">
+      <DependentUpon>frmViewOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPatientFeddback.resx">
+      <DependentUpon>frmViewPatientFeddback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmviewPatientFeedbackHistoty.resx">
+      <DependentUpon>frmviewPatientFeedbackHistoty.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPatientPayment.resx">
+      <DependentUpon>frmViewPatientPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPatients.resx">
+      <DependentUpon>frmViewPatients.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewPromotions.resx">
+      <DependentUpon>frmViewPromotions.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewReport.resx">
+      <DependentUpon>frmViewReport.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewReturnedItems.resx">
+      <DependentUpon>frmViewReturnedItems.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewRevenue.resx">
+      <DependentUpon>frmViewRevenue.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSupplierInformation.resx">
+      <DependentUpon>frmViewSupplierInformation.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSupplierPayment.resx">
+      <DependentUpon>frmViewSupplierPayment.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSystemFeedback.resx">
+      <DependentUpon>frmViewSystemFeedback.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewSystemFeedbackHistory.resx">
+      <DependentUpon>frmViewSystemFeedbackHistory.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewTretmentSchedule.resx">
+      <DependentUpon>frmViewTretmentSchedule.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewUserAccounts.resx">
+      <DependentUpon>frmViewUserAccounts.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmViewVisionTestResult.resx">
+      <DependentUpon>frmViewVisionTestResult.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="ucDays.resx">
+      <DependentUpon>ucDays.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5b0ee802f714b7c6465a89af2b6ab70a__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\f25b0daaf75d467f2c0344b8b3ae6127-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\loginDesign-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\swirly-scribbled-arrow-svg-spiral-arrow-clipart-11562974706fwf0uaoua7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-customer-icon-customer-employee-png-image_10853541.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9187604.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-inpatient-department-doctor-care-a-patient-png-image_11443833.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-inpatient-department-doctor-care-a-patient-png-image_114438331.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127-1277563_enquiries-telemarketing-icon__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\productRefundAndExchange.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2293571.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\employee-details-and-details-icon-concept-vector-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127-1277563_enquiries-telemarketing-icon__1_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-customer-icon-customer-employee-png-image_108535411.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\item1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-otorhinolaryngology-hearing-patient-blue-text-people-thumbnail-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3944795.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Settings.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5760695.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eye-test-icon-Graphics-17677616-1-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Eye-test-icon-Graphics-17677616-1-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127-1277563_enquiries-telemarketing-icon__1_-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5571245-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\6177169-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-insurance-plan-icon-consider-260nw-2022400895-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-insurance-plan-icon-consider-260nw-2022400895-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\health-insurance-plan-icon-consider-260nw-2022400895-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-doctor-avatar-character-free-vector-removebg-preview-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\man-doctor-avatar-character-free-vector-removebg-preview-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\package_return-128-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risk-assessment-icon-educational-risk-assessment-icon-11553476374vazf2mh9z6-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\risk-assessment-icon-educational-risk-assessment-icon-11553476374vazf2mh9z6-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11180e47a2885bd1e1db009251ec30c3-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\786-7861144_icon-promotion-electric-blue-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\786-7861144_icon-promotion-electric-blue-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11671524.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\11693207.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guide-on-Store-Pickup-Local-Delivery-add-on-of-Order-Delivery-Date-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Guide-on-Store-Pickup-Local-Delivery-add-on-of-Order-Delivery-Date-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\218749495-increasing-revenues-and-growth-icon-concept-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\218749495-increasing-revenues-and-growth-icon-concept-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-home-icon-free-png__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1373245842-612x612-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1373245842-612x612-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Package_box-512-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Package_box-512.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1383837060-612x612-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\103144696-medical-history-or-report-paper-and-medical-cross-white-icon-with-shadow-on-transparent-background-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96742022-declining-graph-line-icon-white-icon-with-shadow-on-transparent-background.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\96742022-declining-graph-line-icon-white-icon-with-shadow-on-transparent-background-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\White-Settings-Icon-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting-and-control-icon-white-neumorphism-soft-ui-design-for-web-design-application-ui-and-more-button-vector-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\0766d183119ff92920403eb7ae566a85-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images__2_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icon11.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17493864.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image14.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127-1277563_enquiries-telemarketing-icon__1_-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\127-1277563_enquiries-telemarketing-icon__1_-removebg-preview4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\profile1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\report-document-icon-isolated-on-white-vector-18084480-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\647-6478146_book-an-appointment-icon-hd-png-download-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-inpatient-department-doctor-care-a-patient-png-image_114438332.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABS_Inventory-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABS_Inventory-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emp.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\57025-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow2-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-vector-illustration-of-a-transparent-background-cross-mark-icon-vector-png-image_12694893.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3114815.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31148151.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\arrow1.png.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Emp.png1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image7.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image81.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-tautology-proposition-runner-edq-oracle-e-business-suite-peoplesoft-batches-angle-text-rectangle-thumbnail-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9100459.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-pediatric-outpatient-examination-concept-flat-wind-illustration-png-image_4000042-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-transparent-tautology-proposition-runner-edq-oracle-e-business-suite-peoplesoft-batches-angle-text-rectangle-thumbnail-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\91004591.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image12.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\174938641.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABS_Inventory-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image15.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\22935711.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\174938642.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\7418356.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-file-report-icon-illustration-png__1_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-file-report-icon-illustration-png__1_-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3d-file-report-icon-illustration-png__1_-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ABS_Inventory-removebg-preview3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\forgot-password-icon-9-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-task-list-png-image_8368036-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Inventory-management-system-mediasoft.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\232-2327358_charity-clipart-group-team-work-hands-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5412832.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5412832Opposite.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13322586.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13322566.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8297354.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-new-message-notification-alert-260nw-1927465739-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\vector-new-message-notification-alert-260nw-1927465739-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\31148152.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngtree-inpatient-department-doctor-care-a-patient-png-image_114438333.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\download-removebg-preview %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5412832Opposite1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\54128321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\209802579-treatment-plan-blue-gradient-concept-icon-course-of-action-medical-intervention-disease-management-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Service Include="{C0C07587-41A7-46C8-8FBD-3F9C8EBE2DDC}" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-32.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\task-321.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1326071.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4658825.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\5932994.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earing-test-icon-on-white-background-sound-wave-going-through-human-ear-hearing-symbol-flat-style-vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearing-checkup-line-icon-vector.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1421335.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier-with-eye-outline-icon-find-vector-31557173.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\supplier-icon-line-outline-sign-symbol-graphic-illustration-vector.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67886-200.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier-with-eye-outline-icon-find-vector-315571731.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4306889.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\3486979.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\13260711.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\4989753.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\1728486.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\43068891.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\istockphoto-1065743020-612x612.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\49897531.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\earing-test-icon-on-white-background-sound-wave-going-through-human-ear-hearing-symbol-flat-style-vector1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier-with-eye-outline-icon-find-vector-315571732.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\magnifier-with-eye-outline-icon-find-vector-315571733.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearing-checkup-line-icon-vector1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\17284861.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\67886-2001.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\51d8UefkJZL._AC_SL1200_-removebg-preview.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hearing-aid-device-emitting-sound-waves-icon_96318-166146.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting-and-control-icon-white-neumorphism-soft-ui-design-for-web-design-application-ui-and-more-button-vector-removebg-preview1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\setting-and-control-icon-white-neumorphism-soft-ui-design-for-web-design-application-ui-and-more-button-vector-removebg-preview2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\on-off-switch-sign-white-icon-with-soft-vector-15479276-removebg-preview.png" />
+    <None Include="Resources\setting-and-control-icon-white-neumorphism-soft-ui-design-for-web-design-application-ui-and-more-button-vector-removebg-preview3.png" />
+    <None Include="Resources\icon1.png" />
+    <None Include="Resources\1214428.png" />
+    <None Include="Resources\14213351.png" />
+    <None Include="Resources\13260712.png" />
+    <Content Include="Resources\254686.png" />
+    <None Include="Resources\2546861.png" />
+    <Content Include="Resources\Arrow_Left-512-ezgif.com-webp-to-png-converter.png" />
+    <None Include="Resources\Search1.png" />
+    <None Include="Resources\save-icon-2048x2048-iovw4qr41.png" />
+    <None Include="Resources\Edit1.png" />
+    <None Include="Resources\Mobile_UI_1-36-512-ezgif.com-webp-to-png-converter1.png" />
+    <None Include="Resources\Arrow_Left-512-ezgif.com-webp-to-png-converter2.png" />
+    <None Include="Resources\uploadsymbol_105008-ezgif.com-webp-to-png-converter1.png" />
+    <None Include="Resources\Arrow_Left-512-ezgif.com-webp-to-png-converter1.png" />
+    <None Include="Resources\CASH_ON_DELIVERY-512.png" />
+    <Content Include="Resources\Edit.png" />
+    <None Include="Resources\istockphoto-1065743020-612x6121.jpg" />
+    <Content Include="Resources\Mobile_UI_1-36-512-ezgif.com-webp-to-png-converter.png" />
+    <Content Include="Resources\no-image-icon-512x512-lfoanl0w.png" />
+    <None Include="Resources\reload-page-icon-vector2.png" />
+    <None Include="Resources\no-image-icon-512x512-lfoanl0w1.png" />
+    <Content Include="Resources\reload-page-icon-vector.png" />
+    <None Include="Resources\reload-page-icon-vector1.png" />
+    <Content Include="Resources\save-icon-2048x2048-iovw4qr4.png" />
+    <Content Include="Resources\Search.png" />
+    <Content Include="Resources\uploadsymbol_105008-ezgif.com-webp-to-png-converter.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

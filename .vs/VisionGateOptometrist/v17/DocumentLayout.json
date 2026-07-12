@@ -1,0 +1,1561 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewvisiontestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewvisiontestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewvisiontestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewvisiontestresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewuseraccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewuseraccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewtretmentschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewtretmentschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsystemfeedbackhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsystemfeedbackhistory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsystemfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsystemfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsystemfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsystemfeedback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsupplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsupplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsupplierinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsupplierinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewrevenue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewreturneditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewreturneditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewreturneditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewreturneditems.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatientpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatientpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatientfeedbackhistoty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatientfeedbackhistoty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatientfeddback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatientfeddback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatientfeddback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatientfeddback.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmvieworders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmvieworders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmvieworders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmvieworders.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewhearingtestresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewhearingtestresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewhearingtestresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewhearingtestresults.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewhearingmaintenancedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewhearingmaintenancedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewhearingmaintenancedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewhearingmaintenancedetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewforgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewforgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmvieweyeguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmvieweyeguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewemployeepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewemployeepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmopenloadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmopenloadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmopenloadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmopenloadingscreen.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewforgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewforgotpasswordrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmvieweyeguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmvieweyeguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewearguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewearguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewdeliveryinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewdeliveryinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewcharityschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewcharityschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewchannelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewchannelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewchannelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewchannelling.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewcalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewcalender.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewbranchtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewbranchtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewbranchtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewbranchtasks.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\fmviewstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\fmviewstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\fmviewstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\fmviewstock.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewuseraccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewuseraccounts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewtretmentschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewtretmentschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsupplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsupplierpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewsupplierinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewsupplierinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmgeneratereport_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmgeneratereport_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmgeneratereport_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmgeneratereport_all.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewreport.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpromotions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatients.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatientpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatientpayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewpatientfeedbackhistoty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewpatientfeedbackhistoty.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewinvoice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewemployeepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewemployeepayment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewemployee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewearguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewearguidance.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewdeliveryinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewdeliveryinformation.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmviewcharityschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmviewcharityschedule.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmcashierdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmcashierdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmcashierdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmcashierdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmopticiandashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmopticiandashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmopticiandashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmopticiandashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmaudiologistdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmaudiologistdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmaudiologistdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmaudiologistdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmoptometristdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmoptometristdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|c:\\users\\chaniru\\source\\repos\\visiongateoptometrist\\visiongateoptometrist\\frmproductcatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmproductcatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmoptometristdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmoptometristdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmbranchassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmbranchassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmproductcatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmproductcatelog.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmapproveanddeclinerefunds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmapproveanddeclinerefunds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmownerassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmownerassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmmanageproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmmanageproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmmenupage_all_in_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmmenupage_all_in_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmmenupage_all_in_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmmenupage_all_in_one.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmmanageproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmmanageproducts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmproductdetails.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmproductcatelog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmproductcatelog.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmapproveanddeclinerefunds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmapproveanddeclinerefunds.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmbranchassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmbranchassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmbranchmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmbranchmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmbranchmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmbranchmanagerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmadmindashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmownerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmownerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmownerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmownerdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\visiongateoptometrist\\frmownerassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2480C2A1-FDD2-4693-AE5A-43B2B5545E9D}|VisionGateOptometrist\\VisionGateOptometrist.csproj|solutionrelative:visiongateoptometrist\\frmownerassistantdashboard.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 18,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\Program.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\Program.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\Program.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-02T09:10:02.147Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 89,
+              "Title": "frmOwnerDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerDashboard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOwnerDashboard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerDashboard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOwnerDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T16:56:13.838Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 87,
+              "Title": "frmAdminDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAdminDashboard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmAdminDashboard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAdminDashboard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmAdminDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:38:32.703Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 85,
+              "Title": "frmBranchManagerDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchManagerDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmBranchManagerDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchManagerDashBoard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmBranchManagerDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T16:55:00.771Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 72,
+              "Title": "frmBranchAssistantDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchAssistantDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmBranchAssistantDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchAssistantDashBoard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmBranchAssistantDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:39:23.994Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 70,
+              "Title": "frmProductCatelog.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductCatelog.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmProductCatelog.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductCatelog.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmProductCatelog.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T06:55:37.788Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 69,
+              "Title": "frmOptometristDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOptometristDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOptometristDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOptometristDashBoard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOptometristDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:26:29.268Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 67,
+              "Title": "frmAudiologistDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAudiologistDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmAudiologistDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAudiologistDashBoard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmAudiologistDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:20:54.729Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 65,
+              "Title": "frmOpticianDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpticianDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOpticianDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpticianDashBoard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOpticianDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:49:09.249Z",
+              "IsPinned": true,
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{a80febb4-e7e0-4147-b476-21aaf2453969}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{004be353-6879-467c-9d1e-9ac23cdf6d49}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "frmViewUserAccounts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewUserAccounts.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewUserAccounts.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewUserAccounts.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewUserAccounts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:38:14.558Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "frmViewVisionTestResult.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewVisionTestResult.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewVisionTestResult.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewVisionTestResult.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewVisionTestResult.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:38:45.86Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "frmViewVisionTestResult.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewVisionTestResult.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewVisionTestResult.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewVisionTestResult.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewVisionTestResult.cs",
+              "ViewState": "AgIAAFUAAAAAAAAAAAArwGEAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:38:56.688Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmViewTretmentSchedule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewTretmentSchedule.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewTretmentSchedule.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewTretmentSchedule.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewTretmentSchedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:37:45.917Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "frmViewSystemFeedbackHistory.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSystemFeedbackHistory.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSystemFeedbackHistory.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSystemFeedbackHistory.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSystemFeedbackHistory.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:55:37.823Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "frmViewSystemFeedback.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSystemFeedback.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSystemFeedback.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSystemFeedback.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSystemFeedback.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:37:18.089Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "frmViewSupplierPayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierPayment.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSupplierPayment.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierPayment.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSupplierPayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:36:46.355Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "frmViewSystemFeedback.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSystemFeedback.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSystemFeedback.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSystemFeedback.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSystemFeedback.cs",
+              "ViewState": "AgIAAIIAAAAAAAAAAAAvwIcAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:37:22.872Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "frmViewSupplierInformation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierInformation.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSupplierInformation.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierInformation.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSupplierInformation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:34:49.437Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "frmViewRevenue.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewRevenue.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewRevenue.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewRevenue.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewRevenue.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:34:00.266Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "frmViewRevenue.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewRevenue.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewRevenue.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewRevenue.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewRevenue.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAvwFUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:34:21.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "frmViewReturnedItems.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReturnedItems.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewReturnedItems.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReturnedItems.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewReturnedItems.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:32:07.773Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "frmViewReturnedItems.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReturnedItems.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewReturnedItems.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReturnedItems.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewReturnedItems.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAArwBwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:32:41.658Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "frmViewReport.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReport.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewReport.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReport.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewReport.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:26:12.548Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "frmViewPromotions.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPromotions.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPromotions.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPromotions.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPromotions.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:24:45.454Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "frmViewPatients.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatients.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPatients.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatients.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPatients.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:17:39.943Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "frmViewPatientPayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientPayment.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPatientPayment.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientPayment.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPatientPayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:16:55.769Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "frmviewPatientFeedbackHistoty.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:15:39.661Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "frmViewPatientFeddback.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientFeddback.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPatientFeddback.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientFeddback.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPatientFeddback.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:14:50.778Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "frmViewPatientFeddback.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientFeddback.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPatientFeddback.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientFeddback.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPatientFeddback.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAnwCEAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:14:54.341Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "frmViewOrders.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewOrders.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewOrders.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewOrders.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewOrders.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:13:58.516Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "frmViewOrders.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewOrders.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewOrders.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewOrders.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewOrders.cs",
+              "ViewState": "AgIAAGgAAAAAAAAAAAAvwHsAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:14:34.659Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "frmViewInvoice.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewInvoice.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewInvoice.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewInvoice.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewInvoice.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:13:10.271Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "frmViewHearingTestResults.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingTestResults.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewHearingTestResults.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingTestResults.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewHearingTestResults.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:11:43.15Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "frmViewHearingTestResults.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingTestResults.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewHearingTestResults.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingTestResults.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewHearingTestResults.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAvwEQAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:12:48.397Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "frmViewHearingMaintenanceDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:11:17.868Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "frmViewHearingMaintenanceDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewHearingMaintenanceDetails.cs",
+              "ViewState": "AgIAADUAAAAAAAAAAAAvwEIAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:11:20.212Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "frmViewForgotPasswordRequest.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewForgotPasswordRequest.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewForgotPasswordRequest.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:10:11.081Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "frmViewEyeGuidance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEyeGuidance.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEyeGuidance.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEyeGuidance.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEyeGuidance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:09:02.59Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "frmViewEmployeePayment.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployeePayment.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEmployeePayment.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployeePayment.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEmployeePayment.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:06:38.856Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "frmViewEmployee.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployee.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEmployee.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployee.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEmployee.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:05:54.088Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "frmOpenLoadingScreen.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpenLoadingScreen.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOpenLoadingScreen.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpenLoadingScreen.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOpenLoadingScreen.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAAvwCcAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:46:11.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "frmOpenLoadingScreen.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpenLoadingScreen.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOpenLoadingScreen.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpenLoadingScreen.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOpenLoadingScreen.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:45:44.596Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "frmViewForgotPasswordRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewForgotPasswordRequest.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewForgotPasswordRequest.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewForgotPasswordRequest.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewForgotPasswordRequest.cs",
+              "ViewState": "AgIAAGEAAAAAAAAAAAArwGsAAAAaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:10:15.377Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "frmViewEyeGuidance.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEyeGuidance.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEyeGuidance.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEyeGuidance.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEyeGuidance.cs",
+              "ViewState": "AgIAAFAAAAAAAAAAAAAvwGYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:09:08.623Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "frmViewEarGuidance.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEarGuidance.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEarGuidance.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEarGuidance.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEarGuidance.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:04:45.125Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "frmViewDeliveryInformation.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewDeliveryInformation.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewDeliveryInformation.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewDeliveryInformation.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewDeliveryInformation.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:04:05.573Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "frmViewCharitySchedule.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewCharitySchedule.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewCharitySchedule.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewCharitySchedule.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewCharitySchedule.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:03:23.598Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "frmViewChannelling.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewChannelling.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewChannelling.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewChannelling.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewChannelling.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:01:42.165Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "frmViewChannelling.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewChannelling.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewChannelling.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewChannelling.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewChannelling.cs",
+              "ViewState": "AgIAAEAAAAAAAAAAAAAvwE0AAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:02:51.603Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "frmViewCalender.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewCalender.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewCalender.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewCalender.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewCalender.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:01:37.285Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "frmViewBranchTasks.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewBranchTasks.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewBranchTasks.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewBranchTasks.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewBranchTasks.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:00:58.404Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "frmViewBranchTasks.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewBranchTasks.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewBranchTasks.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewBranchTasks.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewBranchTasks.cs",
+              "ViewState": "AgIAAEUAAAAAAAAAAAArwE0AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:01:13.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "fmViewStock.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\fmViewStock.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\fmViewStock.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\fmViewStock.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\fmViewStock.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:59:15.449Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "fmViewStock.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\fmViewStock.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\fmViewStock.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\fmViewStock.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\fmViewStock.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAIA8wHwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:59:51.153Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "frmViewUserAccounts.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewUserAccounts.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewUserAccounts.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewUserAccounts.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewUserAccounts.cs",
+              "ViewState": "AgIAAM4AAAAAAAAAAADgv+QAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:38:19.517Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "frmViewTretmentSchedule.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewTretmentSchedule.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewTretmentSchedule.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewTretmentSchedule.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewTretmentSchedule.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAADgv2IAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:37:55.141Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "frmViewSupplierPayment.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierPayment.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSupplierPayment.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierPayment.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSupplierPayment.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADgv14AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:36:55.482Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "frmViewSupplierInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierInformation.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewSupplierInformation.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewSupplierInformation.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewSupplierInformation.cs",
+              "ViewState": "AgIAAEgAAAAAAAAAAADgv14AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:34:59.925Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "frmGenerateReport_All.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmGenerateReport_All.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmGenerateReport_All.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmGenerateReport_All.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmGenerateReport_All.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADgvyEAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:29:51.981Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "frmGenerateReport_All.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmGenerateReport_All.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmGenerateReport_All.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmGenerateReport_All.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmGenerateReport_All.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:29:49.304Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "frmViewReport.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReport.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewReport.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewReport.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewReport.cs",
+              "ViewState": "AgIAADkAAAAAAAAAAADgv08AAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:26:15.011Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "frmViewPromotions.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPromotions.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPromotions.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPromotions.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPromotions.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAcwFAAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:25:13.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "frmViewPatients.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatients.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPatients.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatients.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPatients.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAIwEUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:21:45.424Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "frmViewPatientPayment.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientPayment.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewPatientPayment.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewPatientPayment.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewPatientPayment.cs",
+              "ViewState": "AgIAADQAAAAAAAAAAAAcwEcAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:17:19.584Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "frmviewPatientFeedbackHistoty.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmviewPatientFeedbackHistoty.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA2wCEAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:15:44.338Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "frmViewInvoice.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewInvoice.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewInvoice.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewInvoice.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewInvoice.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAApwEAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:13:12.533Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "frmViewEmployeePayment.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployeePayment.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEmployeePayment.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployeePayment.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEmployeePayment.cs",
+              "ViewState": "AgIAAEwAAAAAAAAAAAAwwFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:06:46.219Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "frmViewEmployee.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployee.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEmployee.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEmployee.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEmployee.cs",
+              "ViewState": "AgIAAFIAAAAAAAAAAADwv1UAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:06:21.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "frmViewEarGuidance.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEarGuidance.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewEarGuidance.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewEarGuidance.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewEarGuidance.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAADwv0IAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:05:37.189Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "frmViewDeliveryInformation.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewDeliveryInformation.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewDeliveryInformation.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewDeliveryInformation.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewDeliveryInformation.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAADwvxIAAAAwAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:04:24.675Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 62,
+              "Title": "frmViewCharitySchedule.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewCharitySchedule.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmViewCharitySchedule.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmViewCharitySchedule.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmViewCharitySchedule.cs",
+              "ViewState": "AgIAAFMAAAAAAAAAAADwv1UAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T04:03:27.404Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 64,
+              "Title": "frmCashierDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmCashierDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmCashierDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmCashierDashBoard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmCashierDashBoard.cs",
+              "ViewState": "AgIAAMoAAAAAAAAAAADgv9EAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:55:17.407Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 66,
+              "Title": "frmOpticianDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpticianDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOpticianDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOpticianDashBoard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOpticianDashBoard.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAEwMUAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:52:10.102Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 68,
+              "Title": "frmAudiologistDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAudiologistDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmAudiologistDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAudiologistDashBoard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmAudiologistDashBoard.cs",
+              "ViewState": "AgIAALcAAAAAAAAAAADgv8QAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-16T03:42:04.553Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 79,
+              "Title": "frmMenuPage_All_in_One.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmMenuPage_All_in_One.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmMenuPage_All_in_One.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmMenuPage_All_in_One.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmMenuPage_All_in_One.cs",
+              "ViewState": "AgIAANsLAAAAAAAAAAAMwO0LAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T22:01:24.602Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 63,
+              "Title": "frmCashierDashBoard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmCashierDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmCashierDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmCashierDashBoard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmCashierDashBoard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:41:35.786Z",
+              "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 83,
+              "Title": "frmApproveAndDeclineRefunds.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:41:27.95Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 75,
+              "Title": "frmApproveAndDeclineRefunds.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmApproveAndDeclineRefunds.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:41:26.682Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 81,
+              "Title": "frmProductDetails.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductDetails.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmProductDetails.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductDetails.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmProductDetails.cs",
+              "ViewState": "AgIAACkAAAAAAAAAAAAgwDEAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:36:21.452Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 74,
+              "Title": "frmProductDetails.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductDetails.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmProductDetails.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductDetails.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmProductDetails.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:32:06.717Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 80,
+              "Title": "frmManageProducts.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmManageProducts.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmManageProducts.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmManageProducts.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmManageProducts.cs",
+              "ViewState": "AgIAAGYAAAAAAAAAAAAowBwAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:24:27.018Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 77,
+              "Title": "frmManageProducts.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmManageProducts.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmManageProducts.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmManageProducts.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmManageProducts.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T19:22:22.105Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 73,
+              "Title": "frmProductCatelog.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductCatelog.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmProductCatelog.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductCatelog.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmProductCatelog.cs",
+              "ViewState": "AgIAALwAAAAAAAAAAAAxwMUAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:20:57.344Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 82,
+              "Title": "frmProductCatelog.Designer.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductCatelog.Designer.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmProductCatelog.Designer.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmProductCatelog.Designer.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmProductCatelog.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFABAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T18:20:18.048Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 76,
+              "Title": "frmOwnerAssistantDashboard.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerAssistantDashboard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOwnerAssistantDashboard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerAssistantDashboard.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOwnerAssistantDashboard.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:22:42.965Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 84,
+              "Title": "frmBranchAssistantDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchAssistantDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmBranchAssistantDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchAssistantDashBoard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmBranchAssistantDashBoard.cs",
+              "ViewState": "AgIAAAcBAAAAAAAAAAAwwBQBAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T11:44:48.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 88,
+              "Title": "frmAdminDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAdminDashboard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmAdminDashboard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmAdminDashboard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmAdminDashboard.cs",
+              "ViewState": "AgIAAHcBAAAAAAAAAAAkwIABAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:44:54.112Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 90,
+              "Title": "frmOwnerDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerDashboard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOwnerDashboard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerDashboard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOwnerDashboard.cs",
+              "ViewState": "AgIAAHABAAAAAAAAAAAkwHkBAAAbAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:20:06.701Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 91,
+              "Title": "frmOwnerAssistantDashboard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerAssistantDashboard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOwnerAssistantDashboard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOwnerAssistantDashboard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOwnerAssistantDashboard.cs",
+              "ViewState": "AgIAAMkAAAAAAAAAAAAowNUAAAAWAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T09:23:32.297Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 86,
+              "Title": "frmBranchManagerDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchManagerDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmBranchManagerDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmBranchManagerDashBoard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmBranchManagerDashBoard.cs",
+              "ViewState": "AgIAAOkAAAAAAAAAAAA9wPgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-14T17:00:16.282Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 71,
+              "Title": "frmOptometristDashBoard.cs",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOptometristDashBoard.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmOptometristDashBoard.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmOptometristDashBoard.cs",
+              "RelativeToolTip": "VisionGateOptometrist\\frmOptometristDashBoard.cs",
+              "ViewState": "AgIAALUAAAAAAAAAAADgv7gAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T12:31:06.269Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 78,
+              "Title": "frmMenuPage_All_in_One.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmMenuPage_All_in_One.cs",
+              "RelativeDocumentMoniker": "VisionGateOptometrist\\frmMenuPage_All_in_One.cs",
+              "ToolTip": "C:\\Users\\Chaniru\\source\\repos\\VisionGateOptometrist\\VisionGateOptometrist\\frmMenuPage_All_in_One.cs [Design]",
+              "RelativeToolTip": "VisionGateOptometrist\\frmMenuPage_All_in_One.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-15T05:24:10.629Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
